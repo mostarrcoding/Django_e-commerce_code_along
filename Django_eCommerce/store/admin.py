@@ -13,8 +13,4 @@ class VariationAdmin(admin.ModelAdmin):
     list_filter = ('product', 'variation_category', 'variation_value')
 
 admin.site.register(Product, ProductAdmin)
-<<<<<<< HEAD
 admin.site.register(Variation, VariationAdmin)
-=======
-admin.site.register(Variation)
->>>>>>> 153056333833bb1116f05d89ed007de5168d6262
